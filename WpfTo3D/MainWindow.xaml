@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfTo3D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTo3D"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        mc:Ignorable="d"
+        LocationChanged="Window_LocationChanged"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <WindowsFormsHost Height="100">
+            <wf:Button Text="wfbutton" BackColor="red"/>
+        </WindowsFormsHost>
+
+        <DockPanel x:Name="mainDock">
+            
+        </DockPanel>
+    </Grid>
+</Window>
