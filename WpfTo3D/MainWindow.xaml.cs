@@ -24,7 +24,7 @@ namespace WpfTo3D
         public MainWindow()
         {
             InitializeComponent();
-            //WpfUPWindow.Topmost = true;
+            //WpfUPWindow.Topmost = true;   
             //this.Topmost = true;
             WpfUPWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
             WindowMove = WpfUPWindow.ParentMoveAction;
